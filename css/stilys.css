@@ -1,0 +1,10 @@
+body {
+  margin: 8px;
+}
+.book-title {
+  color: brown;
+  font-weight: bold;
+}
+.book-list {
+  list-style: none;
+}
