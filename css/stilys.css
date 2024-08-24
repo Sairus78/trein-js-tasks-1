@@ -8,3 +8,9 @@ body {
 .book-list {
   list-style: none;
 }
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* Ширина форми */
+  margin: auto;
+}
