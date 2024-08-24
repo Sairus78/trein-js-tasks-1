@@ -132,30 +132,30 @@
 //   console.log(`Index ${index}, value ${number}`);
 // });
 
-const books = [
-  { title: 'To Kill a Mockingbird', author: 'Harper Lee' },
-  { title: '1984', author: 'George Orwell' },
-  { title: 'Moby Dick', author: 'Herman Melville' },
-  { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' },
-  { title: 'Pride and Prejudice', author: 'Jane Austen' },
-];
-const getBook = document.querySelector('.book-list');
+// const books = [
+//   { title: 'To Kill a Mockingbird', author: 'Harper Lee' },
+//   { title: '1984', author: 'George Orwell' },
+//   { title: 'Moby Dick', author: 'Herman Melville' },
+//   { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' },
+//   { title: 'Pride and Prejudice', author: 'Jane Austen' },
+// ];
+// const getBook = document.querySelector('.book-list');
 
-const fragment = document.createDocumentFragment();
+// const fragment = document.createDocumentFragment();
 
-books.forEach(book => {
-  const itemEl = document.createElement('li');
+// books.forEach(book => {
+//   const itemEl = document.createElement('li');
 
-  const spanTitle = document.createElement('span');
-  spanTitle.classList.add('book-title');
+//   const spanTitle = document.createElement('span');
+//   spanTitle.classList.add('book-title');
 
-  const spanAutor = document.createElement('span');
-  spanAutor.classList.add('book-author');
+//   const spanAutor = document.createElement('span');
+//   spanAutor.classList.add('book-author');
 
-  spanTitle.textContent = book.title;
-  spanAutor.textContent = book.author;
+//   spanTitle.textContent = book.title;
+//   spanAutor.textContent = book.author;
 
-  itemEl.append(spanTitle, ' by ', spanAutor);
-  fragment.append(itemEl);
-});
-getBook.append(fragment);
+//   itemEl.append(spanTitle, ' by ', spanAutor);
+//   fragment.append(itemEl);
+// });
+// getBook.append(fragment);
